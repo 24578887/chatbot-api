@@ -10,5 +10,6 @@ public class ApiTest {
     public void query_unanswered(){
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         HttpGet get = new HttpGet();
+        get.getURI();
     }
 }
